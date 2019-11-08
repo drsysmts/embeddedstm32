@@ -100,7 +100,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13)) {	                // checks if PA0 is set
+if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13)) {	                // checks if button user is set 1
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
 
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
