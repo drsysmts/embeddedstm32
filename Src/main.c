@@ -107,7 +107,7 @@ if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13)) {	                // checks if button 
 
 }else {
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);      // modification  comment 
   }
 
   }
